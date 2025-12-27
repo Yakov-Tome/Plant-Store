@@ -1,39 +1,56 @@
-[00:00:00.895] Server  LOG     ✓ Ready in 668ms
-[00:00:04.414] Browser WARN    Image with src "/logoA.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:04.414] Browser WARN    Image with src "/foodmenu.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:04.414] Browser LOG     No user logged in
-[00:05:14.837] Browser LOG     User loaded from Firestore: Dwt02kikdoMBskZVRCR6YfA6x2F2
-[00:05:24.632] Browser LOG     No user logged in
-[00:07:52.942] Server  LOG       Reload env: .env.local
-[00:07:53.195] Server  LOG     ✓ Compiled in 29ms
-[00:07:53.196] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:07:54.748] Browser WARN    Image with src "/logoA.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:07:55.749] Browser LOG     User loaded from Firestore: LwK9viPlwtRgAJ2SRkHoS35fvNh2
-[00:07:55.749] Browser WARN    Image with src "/foodmenu.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:13:54.895] Browser WARN    Image with src "/logoA.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:13:54.895] Browser WARN    Image with src "/foodmenu.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:13:55.171] Browser LOG     No user logged in
-[00:15:22.267] Browser LOG     User loaded from Firestore: wIyC2n8IgTgtJMfqfnDiy4x73Un1
-[00:25:01.311] Server  LOG     ✓ Compiled in 443ms
-[00:34:55.620] Server  LOG     ✓ Compiled in 320ms
-[00:35:32.547] Browser WARN    Image with src "/logoA.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:35:33.330] Browser LOG     User loaded from Firestore: wIyC2n8IgTgtJMfqfnDiy4x73Un1
-[00:35:43.343] Browser WARN    Image with src "/foodmenu.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:38:34.888] Server  LOG     ✓ Compiled in 74ms
-[00:50:43.196] Browser WARN    Image with src "/logoA.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:50:43.196] Browser WARN    Image with src "/foodmenu.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:50:44.084] Browser LOG     User loaded from Firestore: wIyC2n8IgTgtJMfqfnDiy4x73Un1
-[00:51:15.952] Browser LOG     User Data: null
-[00:51:15.952] Browser LOG     [2;38;2;124;124;124m%s[0m User Data: null
-[00:51:15.952] Browser LOG     User Data: {"address":"טשרניחובסקי 11","city":"הרצליה","createdAt":{"nanoseconds":110000000,"seconds":1766869080,"type":"firestore/timestamp/1.0"},"email":"kobitomi23@gmail.com","firstName":"יעקב","id":"wIyC2n8IgTgtJMfqfnDiy4x73Un1","isAdmin":false,"lastLogin":{"nanoseconds":110000000,"seconds":1766869080,"type":"firestore/timestamp/1.0"},"lastName":"תומו","name":"יעקב תומו","online":true,"phone":"0528855882","uid":"wIyC2n8IgTgtJMfqfnDiy4x73Un1"}
-[00:51:15.952] Browser LOG     [2;38;2;124;124;124m%s[0m User Data: {"address":"טשרניחובסקי 11","city":"הרצליה","createdAt":{"nanoseconds":110000000,"seconds":1766869080,"type":"firestore/timestamp/1.0"},"email":"kobitomi23@gmail.com","firstName":"יעקב","id":"wIyC2n8IgTgtJMfqfnDiy4x73Un1","isAdmin":false,"lastLogin":{"nanoseconds":110000000,"seconds":1766869080,"type":"firestore/timestamp/1.0"},"lastName":"תומו","name":"יעקב תומו","online":true,"phone":"0528855882","uid":"wIyC2n8IgTgtJMfqfnDiy4x73Un1"}
-[00:51:21.795] Browser LOG     User Data: {"address":"טשרניחובסקי 11","city":"הרצליה","createdAt":{"nanoseconds":110000000,"seconds":1766869080,"type":"firestore/timestamp/1.0"},"email":"kobitomi23@gmail.com","firstName":"יעקב","id":"wIyC2n8IgTgtJMfqfnDiy4x73Un1","isAdmin":false,"lastLogin":{"nanoseconds":110000000,"seconds":1766869080,"type":"firestore/timestamp/1.0"},"lastName":"תומו","name":"יעקב תומו","online":true,"phone":"0528855882","uid":"wIyC2n8IgTgtJMfqfnDiy4x73Un1"}
-[00:51:21.795] Browser LOG     [2;38;2;124;124;124m%s[0m User Data: {"address":"טשרניחובסקי 11","city":"הרצליה","createdAt":{"nanoseconds":110000000,"seconds":1766869080,"type":"firestore/timestamp/1.0"},"email":"kobitomi23@gmail.com","firstName":"יעקב","id":"wIyC2n8IgTgtJMfqfnDiy4x73Un1","isAdmin":false,"lastLogin":{"nanoseconds":110000000,"seconds":1766869080,"type":"firestore/timestamp/1.0"},"lastName":"תומו","name":"יעקב תומו","online":true,"phone":"0528855882","uid":"wIyC2n8IgTgtJMfqfnDiy4x73Un1"}
-[00:51:24.136] Browser WARN    Image with src "/logoA.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:51:24.136] Browser WARN    Image with src "/logoA.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:51:24.725] Browser LOG     User loaded from Firestore: wIyC2n8IgTgtJMfqfnDiy4x73Un1
-[00:51:24.725] Browser LOG     User Data: null
-[00:51:24.725] Browser LOG     [2;38;2;124;124;124m%s[0m User Data: null
-[00:51:24.725] Browser LOG     User Data: {"address":"טשרניחובסקי 11","city":"הרצליה","createdAt":{"nanoseconds":110000000,"seconds":1766869080,"type":"firestore/timestamp/1.0"},"email":"kobitomi23@gmail.com","firstName":"יעקב","id":"wIyC2n8IgTgtJMfqfnDiy4x73Un1","isAdmin":false,"lastLogin":{"nanoseconds":110000000,"seconds":1766869080,"type":"firestore/timestamp/1.0"},"lastName":"תומו","name":"יעקב תומו","online":true,"phone":"0528855882","uid":"wIyC2n8IgTgtJMfqfnDiy4x73Un1"}
-[00:51:24.725] Browser LOG     [2;38;2;124;124;124m%s[0m User Data: {"address":"טשרניחובסקי 11","city":"הרצליה","createdAt":{"nanoseconds":110000000,"seconds":1766869080,"type":"firestore/timestamp/1.0"},"email":"kobitomi23@gmail.com","firstName":"יעקב","id":"wIyC2n8IgTgtJMfqfnDiy4x73Un1","isAdmin":false,"lastLogin":{"nanoseconds":110000000,"seconds":1766869080,"type":"firestore/timestamp/1.0"},"lastName":"תומו","name":"יעקב תומו","online":true,"phone":"0528855882","uid":"wIyC2n8IgTgtJMfqfnDiy4x73Un1"}
+[00:00:02.273] Server  LOG     ✓ Ready in 2.1s
+[00:00:08.809] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="he" dir="rtl" data-theme="light">
+                          <body
+                            className="rubik_78c3363e-module__1LcUFG__variable heebo_fd7e145-module__LbrhEW__variable ..."
+-                           cz-shortcut-listen="true"
+                          >
+                          ...
+                  ...
+
+[00:00:08.809] Browser WARN    Image with src "/logoA.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:08.809] Browser WARN    Image with src "/foodmenu.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:10.133] Browser LOG     User loaded from Firestore: wIyC2n8IgTgtJMfqfnDiy4x73Un1
+[00:00:27.199] Browser LOG     User Data: null
+[00:00:27.199] Browser LOG     [2;38;2;124;124;124m%s[0m User Data: null
+[00:00:27.199] Browser LOG     User Data: {"address":"טשרניחובסקי 11","city":"הרצליה","createdAt":{"nanoseconds":110000000,"seconds":1766869080,"type":"firestore/timestamp/1.0"},"email":"kobitomi23@gmail.com","firstName":"יעקב","id":"wIyC2n8IgTgtJMfqfnDiy4x73Un1","isAdmin":false,"lastLogin":{"nanoseconds":110000000,"seconds":1766869080,"type":"firestore/timestamp/1.0"},"lastName":"תומו","name":"יעקב תומו","online":true,"phone":"0528855882","uid":"wIyC2n8IgTgtJMfqfnDiy4x73Un1"}
+[00:00:27.199] Browser LOG     [2;38;2;124;124;124m%s[0m User Data: {"address":"טשרניחובסקי 11","city":"הרצליה","createdAt":{"nanoseconds":110000000,"seconds":1766869080,"type":"firestore/timestamp/1.0"},"email":"kobitomi23@gmail.com","firstName":"יעקב","id":"wIyC2n8IgTgtJMfqfnDiy4x73Un1","isAdmin":false,"lastLogin":{"nanoseconds":110000000,"seconds":1766869080,"type":"firestore/timestamp/1.0"},"lastName":"תומו","name":"יעקב תומו","online":true,"phone":"0528855882","uid":"wIyC2n8IgTgtJMfqfnDiy4x73Un1"}
+[00:00:32.742] Browser LOG     No user logged in
