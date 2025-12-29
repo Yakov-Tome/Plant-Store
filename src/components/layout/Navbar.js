@@ -9,9 +9,12 @@ import { useAuth } from "@/context/AuthContext";
 
 function Navbar() {
   const pathname = usePathname();
-  const { loadingAuth } = useAuth();
-  const { user } = useAuth();
 
+  const { loadingAuth } = useAuth();
+  const { userData } = useAuth();
+
+  const isAdmin = userData?.isAdmin
+ 
   const RouteAll = [
     { id: "1", href: "/", name: "בית" },
     { id: "2", href: "/catalog", name: "קטלוג מוצרים" },
@@ -29,7 +32,7 @@ function Navbar() {
         <div className="dropdown">
           <button
             tabIndex={0}
-            className="btn btn-ghost active:bg-(--leaf-new) lg:hidden hover:bg-(--leaf-new) rounded-full"
+            className="btn btn-ghost active:bg-(--leaf-new) lg:hidden hover:bg-(--leaf-new) rounded-full hover:text-white"
           >
             <RiMenu3Fill size={22} />
           </button>
@@ -38,25 +41,40 @@ function Navbar() {
             tabIndex={-1}
             className="menu menu-sm dropdown-content rounded-box mt-3 w-52 p-2 shadow bg-white/95"
           >
+            {isAdmin && !loadingAuth && (
+              <li
+                key="admin"
+                className={`rounded-2xl ${
+                  pathname === "/admin"
+                      ? "bg-[#95D06F]/20 text-[#95D06F]-content font-bold"
+                      : "hover:bg-[#95D06F] hover:text-black"
+                  }`}
+                >
+                <Link className="text-sm" href="/admin">
+                  ניהול
+                </Link>
+              </li>
+            )}
             {RouteAll.map((r) => (
               <li
                 key={r.id}
                 className={`rounded-2xl ${
                   pathname === r.href
-                    ? "bg-[#95D06F]/20 text-[#95D06F]-content font-bold"
-                    : "hover:bg-[#95D06F] hover:text-black"
-                }`}
-              >
+                      ? "bg-[#95D06F]/20 text-[#95D06F]-content font-bold"
+                      : "hover:bg-[#95D06F] hover:text-black"
+                  }`}
+                >
                 <Link className="text-sm" href={r.href}>
                   {r.name}
                 </Link>
               </li>
             ))}
+
           </ul>
         </div>
 
         <div className="lg:hidden flex items-center">
-          <h1 className="text-2xl">המשתלה בנווה צדק</h1>
+          <h1 className="text-xl sm:text-2xl">המשתלה בנווה צדק</h1>
         </div>
 
         <div>
@@ -121,6 +139,7 @@ function Navbar() {
               </Link>
             </li>
           ))}
+
         </ul>
       </div>
     </nav>

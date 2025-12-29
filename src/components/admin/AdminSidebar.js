@@ -50,7 +50,7 @@ function AdminSidebar() {
   ];
 
   return (
-    <aside className="min-w-64 p-4 bg-[#D2D8C0] font-mono min-h-screen hidden lg:block mb-0">
+    <aside className="min-w-64 p-4 bg-background font-mono min-h-screen hidden lg:block mb-0">
       <ul className="menu bg-gray-200 rounded-box w-full space-y-2 p-4">
         {list.map((item) => {
           const isActive = pathname === item.link;

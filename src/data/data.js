@@ -1,6 +1,6 @@
 import { LuPhoneCall } from "react-icons/lu";
 import { MdOutlineEmail } from "react-icons/md";
-import { BsFillPinMapFill } from "react-icons/bs";
+import { FaWaze } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 
 export const ISRAEL_CITIES = [
@@ -102,10 +102,10 @@ export const Details = [
   {
     id: 3,
     icon: (
-      <BsFillPinMapFill size={20} className="inline-block text-(--leaf-new)" />
+      <FaWaze size={20} className="inline-block text-(--leaf-new)" />
     ),
     text: "כתובת: סמטת אהרון שלוש 23 תל אביב",
-    href: "https://maps.google.com/?q=סמטת אהרון שלוש 23 תל אביב",
+    href: "https://waze.com/ul/hsv8wrh5rn",
     blank: true,
   },
   {

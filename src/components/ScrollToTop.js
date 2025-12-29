@@ -8,7 +8,7 @@ export default function ScrollToTop() {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 300) setShow(true);
+      if (window.scrollY > 100) setShow(true);
       else setShow(false);
     };
     window.addEventListener("scroll", handleScroll);
@@ -26,10 +26,12 @@ export default function ScrollToTop() {
       onClick={scrollUp}
       aria-label="חזרה לראש העמוד"
       className="
-        fixed bottom-6 right-6 z-50
+        fixed z-50
+        right-4 bottom-24 md:right-6 md:bottom-24
+        lg:bottom-6 lg:right-6
         bg-white/70 text-(--leaf-new) p-3 rounded-full shadow-xl
         hover:bg-white/90 transition
-        focus:outline-none focus:ring-1 focus:ring-( --leaf-new)/70 focus:ring-offset-1
+        focus:outline-none focus:ring-1 focus:ring-(--leaf-new)/70 focus:ring-offset-1
         cursor-pointer
       "
     >

@@ -1,7 +1,10 @@
 {
   "/(auth)/login/page": "app/(auth)/login/page.js",
+  "/admin/page": "app/admin/page.js",
   "/cart/page": "app/cart/page.js",
   "/catalog/page": "app/catalog/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/faq/page": "app/faq/page.js",
   "/page": "app/page.js",
   "/settings/page": "app/settings/page.js"
 }

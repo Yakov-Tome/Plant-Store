@@ -1,5 +1,163 @@
-[00:00:02.273] Server  LOG     ✓ Ready in 2.1s
-[00:00:08.809] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:01.335] Server  LOG     ✓ Ready in 1205ms
+[00:00:07.408] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} forbidden={undefined} ...>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <Head>
+          <__next_root_layout_boundary__>
+            <SegmentViewNode type="layout" pagePath="layout.js">
+              <SegmentTrieNode>
+              <link>
+              <script>
+              <script>
+              <script>
+              <script>
+              <script>
+              <script>
+              <script>
+              <script>
+              <script>
+              <script>
+              <script>
+              <script>
+              <RootLayout>
+                <html lang="he" dir="rtl" data-theme="light">
+                  <body className="rubik_78c3...">
+                    <Providers>
+                      <AuthProvider>
+                        <CartProvider>
+                          <div>
+                          <div>
+                          <main className="min-h-scre...">
+                            <ClientSidebar>
+                            <DockBar>
+                              <div
++                               className={"\n        dock\n        bg-[#F6F7F3]/80\n        backdrop-blur-2xl\n     ..."}
+-                               className={" dock bg-[#F6F7F3]/80 backdrop-blur-2xl lg:hidden shadow-lg border border..."}
+                              >
+                            ...
+                          ...
+                  ...
+          ...
+
+[00:00:07.408] Browser WARN    Image with src "/logoA.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:08.578] Browser LOG     User loaded from Firestore: wIyC2n8IgTgtJMfqfnDiy4x73Un1
+[00:00:11.689] Server  WARN    ⚠ Cross origin request detected from 192.168.0.246 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+[00:00:12.513] Browser WARN    Image with src "/logoA.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:00:12.513] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HTTPAccessFallbackErrorBoundary pathname="/cart" notFound={<NotAllowedRootHTTPFallbackError>} forbidden={undefined} ...>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <Head>
+          <__next_root_layout_boundary__>
+            <SegmentViewNode type="layout" pagePath="layout.js">
+              <SegmentTrieNode>
+              <link>
+              <script>
+              <script>
+              <script>
+              <script>
+              <script>
+              <script>
+              <script>
+              <script>
+              <script>
+              <script>
+              <script>
+              <script>
+              <RootLayout>
+                <html lang="he" dir="rtl" data-theme="light">
+                  <body className="rubik_78c3...">
+                    <Providers>
+                      <AuthProvider>
+                        <CartProvider>
+                          <div>
+                          <div>
+                          <main className="min-h-scre...">
+                            <ClientSidebar>
+                            <DockBar>
+                              <div
++                               className={"\n        dock\n        bg-[#F6F7F3]/80\n        backdrop-blur-2xl\n     ..."}
+-                               className={" dock bg-[#F6F7F3]/80 backdrop-blur-2xl lg:hidden shadow-lg border border..."}
+                              >
+                            ...
+                          ...
+                  ...
+          ...
+
+[00:00:12.513] Browser WARN    Image with src "/logoA.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:13.884] Browser LOG     User loaded from Firestore: wIyC2n8IgTgtJMfqfnDiy4x73Un1
+[00:00:13.885] Browser LOG     User Data: null
+[00:00:13.885] Browser LOG     User Data: null
+[00:00:13.885] Browser LOG     User Data: {"address":"טשרניחובסקי 11","city":"הרצליה","createdAt":{"nanoseconds":110000000,"seconds":1766869080,"type":"firestore/timestamp/1.0"},"email":"kobitomi23@gmail.com","firstName":"יעקב","id":"wIyC2n8IgTgtJMfqfnDiy4x73Un1","isAdmin":true,"lastLogin":{"nanoseconds":792000000,"seconds":1766955149,"type":"firestore/timestamp/1.0"},"lastName":"תומו","name":"יעקב תומו","online":true,"phone":"0528855882","uid":"wIyC2n8IgTgtJMfqfnDiy4x73Un1"}
+[00:00:13.885] Browser LOG     User Data: {"address":"טשרניחובסקי 11","city":"הרצליה","createdAt":{"nanoseconds":110000000,"seconds":1766869080,"type":"firestore/timestamp/1.0"},"email":"kobitomi23@gmail.com","firstName":"יעקב","id":"wIyC2n8IgTgtJMfqfnDiy4x73Un1","isAdmin":true,"lastLogin":{"nanoseconds":792000000,"seconds":1766955149,"type":"firestore/timestamp/1.0"},"lastName":"תומו","name":"יעקב תומו","online":true,"phone":"0528855882","uid":"wIyC2n8IgTgtJMfqfnDiy4x73Un1"}
+[00:02:43.130] Server  LOG     ✓ Compiled in 87ms
+[00:02:51.052] Browser WARN    Image with src "/logoA.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:51.955] Browser LOG     User loaded from Firestore: wIyC2n8IgTgtJMfqfnDiy4x73Un1
+[00:02:56.400] Server  LOG     ✓ Compiled in 50ms
+[00:03:22.820] Browser LOG     User Data: null
+[00:03:22.820] Browser LOG     [2;38;2;124;124;124m%s[0m User Data: null
+[00:03:22.820] Browser LOG     User Data: {"address":"טשרניחובסקי 11","city":"הרצליה","createdAt":{"nanoseconds":110000000,"seconds":1766869080,"type":"firestore/timestamp/1.0"},"email":"kobitomi23@gmail.com","firstName":"יעקב","id":"wIyC2n8IgTgtJMfqfnDiy4x73Un1","isAdmin":true,"lastLogin":{"nanoseconds":792000000,"seconds":1766955149,"type":"firestore/timestamp/1.0"},"lastName":"תומו","name":"יעקב תומו","online":true,"phone":"0528855882","uid":"wIyC2n8IgTgtJMfqfnDiy4x73Un1"}
+[00:03:22.820] Browser LOG     [2;38;2;124;124;124m%s[0m User Data: {"address":"טשרניחובסקי 11","city":"הרצליה","createdAt":{"nanoseconds":110000000,"seconds":1766869080,"type":"firestore/timestamp/1.0"},"email":"kobitomi23@gmail.com","firstName":"יעקב","id":"wIyC2n8IgTgtJMfqfnDiy4x73Un1","isAdmin":true,"lastLogin":{"nanoseconds":792000000,"seconds":1766955149,"type":"firestore/timestamp/1.0"},"lastName":"תומו","name":"יעקב תומו","online":true,"phone":"0528855882","uid":"wIyC2n8IgTgtJMfqfnDiy4x73Un1"}
+[00:03:30.877] Browser WARN    Image with src "/logoA.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:03:30.877] Browser WARN    Image with src "/logoA.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:03:31.918] Browser LOG     User loaded from Firestore: wIyC2n8IgTgtJMfqfnDiy4x73Un1
+[00:03:31.918] Browser LOG     User Data: null
+[00:03:31.918] Browser LOG     User Data: null
+[00:03:31.918] Browser LOG     User Data: {"address":"טשרניחובסקי 11","city":"הרצליה","createdAt":{"nanoseconds":110000000,"seconds":1766869080,"type":"firestore/timestamp/1.0"},"email":"kobitomi23@gmail.com","firstName":"יעקב","id":"wIyC2n8IgTgtJMfqfnDiy4x73Un1","isAdmin":true,"lastLogin":{"nanoseconds":792000000,"seconds":1766955149,"type":"firestore/timestamp/1.0"},"lastName":"תומו","name":"יעקב תומו","online":true,"phone":"0528855882","uid":"wIyC2n8IgTgtJMfqfnDiy4x73Un1"}
+[00:03:31.918] Browser LOG     User Data: {"address":"טשרניחובסקי 11","city":"הרצליה","createdAt":{"nanoseconds":110000000,"seconds":1766869080,"type":"firestore/timestamp/1.0"},"email":"kobitomi23@gmail.com","firstName":"יעקב","id":"wIyC2n8IgTgtJMfqfnDiy4x73Un1","isAdmin":true,"lastLogin":{"nanoseconds":792000000,"seconds":1766955149,"type":"firestore/timestamp/1.0"},"lastName":"תומו","name":"יעקב תומו","online":true,"phone":"0528855882","uid":"wIyC2n8IgTgtJMfqfnDiy4x73Un1"}
+[00:04:45.646] Browser LOG     User Data: {"address":"טשרניחובסקי 11","city":"הרצליה","createdAt":{"nanoseconds":110000000,"seconds":1766869080,"type":"firestore/timestamp/1.0"},"email":"kobitomi23@gmail.com","firstName":"יעקב","id":"wIyC2n8IgTgtJMfqfnDiy4x73Un1","isAdmin":true,"lastLogin":{"nanoseconds":971000000,"seconds":1766961856,"type":"firestore/timestamp/1.0"},"lastName":"תומו","name":"יעקב תומו","online":false,"phone":"0528855882","uid":"wIyC2n8IgTgtJMfqfnDiy4x73Un1"}
+[00:04:45.646] Browser LOG     [2;38;2;124;124;124m%s[0m User Data: {"address":"טשרניחובסקי 11","city":"הרצליה","createdAt":{"nanoseconds":110000000,"seconds":1766869080,"type":"firestore/timestamp/1.0"},"email":"kobitomi23@gmail.com","firstName":"יעקב","id":"wIyC2n8IgTgtJMfqfnDiy4x73Un1","isAdmin":true,"lastLogin":{"nanoseconds":971000000,"seconds":1766961856,"type":"firestore/timestamp/1.0"},"lastName":"תומו","name":"יעקב תומו","online":false,"phone":"0528855882","uid":"wIyC2n8IgTgtJMfqfnDiy4x73Un1"}
+[00:04:45.655] Browser LOG     No user logged in
+[00:05:15.281] Browser LOG     User loaded from Firestore: wIyC2n8IgTgtJMfqfnDiy4x73Un1
+[00:05:16.865] Browser LOG     User Data: {"address":"טשרניחובסקי 11","city":"הרצליה","createdAt":{"nanoseconds":110000000,"seconds":1766869080,"type":"firestore/timestamp/1.0"},"email":"kobitomi23@gmail.com","firstName":"יעקב","id":"wIyC2n8IgTgtJMfqfnDiy4x73Un1","isAdmin":true,"lastLogin":{"nanoseconds":187000000,"seconds":1766961888,"type":"firestore/timestamp/1.0"},"lastName":"תומו","name":"יעקב תומו","online":true,"phone":"0528855882","uid":"wIyC2n8IgTgtJMfqfnDiy4x73Un1"}
+[00:05:16.865] Browser LOG     [2;38;2;124;124;124m%s[0m User Data: {"address":"טשרניחובסקי 11","city":"הרצליה","createdAt":{"nanoseconds":110000000,"seconds":1766869080,"type":"firestore/timestamp/1.0"},"email":"kobitomi23@gmail.com","firstName":"יעקב","id":"wIyC2n8IgTgtJMfqfnDiy4x73Un1","isAdmin":true,"lastLogin":{"nanoseconds":187000000,"seconds":1766961888,"type":"firestore/timestamp/1.0"},"lastName":"תומו","name":"יעקב תומו","online":true,"phone":"0528855882","uid":"wIyC2n8IgTgtJMfqfnDiy4x73Un1"}
+[00:06:02.913] Browser LOG     User Data: null
+[00:06:02.913] Browser LOG     User Data: null
+[00:06:02.913] Browser LOG     User Data: {"address":"טשרניחובסקי 11","city":"הרצליה","createdAt":{"nanoseconds":110000000,"seconds":1766869080,"type":"firestore/timestamp/1.0"},"email":"kobitomi23@gmail.com","firstName":"יעקב","id":"wIyC2n8IgTgtJMfqfnDiy4x73Un1","isAdmin":true,"lastLogin":{"nanoseconds":187000000,"seconds":1766961888,"type":"firestore/timestamp/1.0"},"lastName":"תומו","name":"יעקב תומו","online":true,"phone":"0528855882","uid":"wIyC2n8IgTgtJMfqfnDiy4x73Un1"}
+[00:06:02.913] Browser LOG     User Data: {"address":"טשרניחובסקי 11","city":"הרצליה","createdAt":{"nanoseconds":110000000,"seconds":1766869080,"type":"firestore/timestamp/1.0"},"email":"kobitomi23@gmail.com","firstName":"יעקב","id":"wIyC2n8IgTgtJMfqfnDiy4x73Un1","isAdmin":true,"lastLogin":{"nanoseconds":187000000,"seconds":1766961888,"type":"firestore/timestamp/1.0"},"lastName":"תומו","name":"יעקב תומו","online":true,"phone":"0528855882","uid":"wIyC2n8IgTgtJMfqfnDiy4x73Un1"}
+[00:06:11.124] Browser LOG     User Data: null
+[00:06:11.124] Browser LOG     User Data: null
+[00:06:11.124] Browser LOG     User Data: {"address":"טשרניחובסקי 11","city":"הרצליה","createdAt":{"nanoseconds":110000000,"seconds":1766869080,"type":"firestore/timestamp/1.0"},"email":"kobitomi23@gmail.com","firstName":"יעקב","id":"wIyC2n8IgTgtJMfqfnDiy4x73Un1","isAdmin":true,"lastLogin":{"nanoseconds":187000000,"seconds":1766961888,"type":"firestore/timestamp/1.0"},"lastName":"תומו","name":"יעקב תומו","online":true,"phone":"0528855882","uid":"wIyC2n8IgTgtJMfqfnDiy4x73Un1"}
+[00:06:11.124] Browser LOG     User Data: {"address":"טשרניחובסקי 11","city":"הרצליה","createdAt":{"nanoseconds":110000000,"seconds":1766869080,"type":"firestore/timestamp/1.0"},"email":"kobitomi23@gmail.com","firstName":"יעקב","id":"wIyC2n8IgTgtJMfqfnDiy4x73Un1","isAdmin":true,"lastLogin":{"nanoseconds":187000000,"seconds":1766961888,"type":"firestore/timestamp/1.0"},"lastName":"תומו","name":"יעקב תומו","online":true,"phone":"0528855882","uid":"wIyC2n8IgTgtJMfqfnDiy4x73Un1"}
+[00:08:01.787] Browser WARN    Image with src "/foodmenu.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:12:57.612] Browser WARN    Image with src "/logoA.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:12:59.319] Browser LOG     User loaded from Firestore: wIyC2n8IgTgtJMfqfnDiy4x73Un1
+[00:13:46.727] Browser LOG     User Data: null
+[00:13:46.727] Browser LOG     User Data: null
+[00:13:46.727] Browser LOG     User Data: {"address":"טשרניחובסקי 11","city":"הרצליה","createdAt":{"nanoseconds":110000000,"seconds":1766869080,"type":"firestore/timestamp/1.0"},"email":"kobitomi23@gmail.com","firstName":"יעקב","id":"wIyC2n8IgTgtJMfqfnDiy4x73Un1","isAdmin":true,"lastLogin":{"nanoseconds":187000000,"seconds":1766961888,"type":"firestore/timestamp/1.0"},"lastName":"תומו","name":"יעקב תומו","online":true,"phone":"0528855882","uid":"wIyC2n8IgTgtJMfqfnDiy4x73Un1"}
+[00:13:46.727] Browser LOG     User Data: {"address":"טשרניחובסקי 11","city":"הרצליה","createdAt":{"nanoseconds":110000000,"seconds":1766869080,"type":"firestore/timestamp/1.0"},"email":"kobitomi23@gmail.com","firstName":"יעקב","id":"wIyC2n8IgTgtJMfqfnDiy4x73Un1","isAdmin":true,"lastLogin":{"nanoseconds":187000000,"seconds":1766961888,"type":"firestore/timestamp/1.0"},"lastName":"תומו","name":"יעקב תומו","online":true,"phone":"0528855882","uid":"wIyC2n8IgTgtJMfqfnDiy4x73Un1"}
+[00:16:59.467] Browser WARN    Image with src "/logoA.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:16:59.467] Browser WARN    Image with src "/foodmenu.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:17:00.420] Browser LOG     User loaded from Firestore: wIyC2n8IgTgtJMfqfnDiy4x73Un1
+[00:20:56.010] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -46,11 +204,489 @@ It can also happen if the client has a browser extension installed which messes 
                           ...
                   ...
 
-[00:00:08.809] Browser WARN    Image with src "/logoA.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:08.809] Browser WARN    Image with src "/foodmenu.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:10.133] Browser LOG     User loaded from Firestore: wIyC2n8IgTgtJMfqfnDiy4x73Un1
-[00:00:27.199] Browser LOG     User Data: null
-[00:00:27.199] Browser LOG     [2;38;2;124;124;124m%s[0m User Data: null
-[00:00:27.199] Browser LOG     User Data: {"address":"טשרניחובסקי 11","city":"הרצליה","createdAt":{"nanoseconds":110000000,"seconds":1766869080,"type":"firestore/timestamp/1.0"},"email":"kobitomi23@gmail.com","firstName":"יעקב","id":"wIyC2n8IgTgtJMfqfnDiy4x73Un1","isAdmin":false,"lastLogin":{"nanoseconds":110000000,"seconds":1766869080,"type":"firestore/timestamp/1.0"},"lastName":"תומו","name":"יעקב תומו","online":true,"phone":"0528855882","uid":"wIyC2n8IgTgtJMfqfnDiy4x73Un1"}
-[00:00:27.199] Browser LOG     [2;38;2;124;124;124m%s[0m User Data: {"address":"טשרניחובסקי 11","city":"הרצליה","createdAt":{"nanoseconds":110000000,"seconds":1766869080,"type":"firestore/timestamp/1.0"},"email":"kobitomi23@gmail.com","firstName":"יעקב","id":"wIyC2n8IgTgtJMfqfnDiy4x73Un1","isAdmin":false,"lastLogin":{"nanoseconds":110000000,"seconds":1766869080,"type":"firestore/timestamp/1.0"},"lastName":"תומו","name":"יעקב תומו","online":true,"phone":"0528855882","uid":"wIyC2n8IgTgtJMfqfnDiy4x73Un1"}
-[00:00:32.742] Browser LOG     No user logged in
+[00:20:56.010] Browser WARN    Image with src "/logoA.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:20:56.010] Browser WARN    Image with src "/foodmenu.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:20:56.912] Browser LOG     User loaded from Firestore: wIyC2n8IgTgtJMfqfnDiy4x73Un1
+[00:23:02.588] Server  LOG     ✓ Compiled in 127ms
+[00:24:05.792] Server  LOG     ✓ Compiled in 58ms
+[01:31:16.061] Browser WARN    Image with src "/logoA.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:31:16.061] Browser WARN    Image with src "/foodmenu.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:31:16.986] Browser LOG     User loaded from Firestore: wIyC2n8IgTgtJMfqfnDiy4x73Un1
+[01:31:19.625] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="he" dir="rtl" data-theme="light">
+                          <body
+                            className="rubik_78c3363e-module__1LcUFG__variable heebo_fd7e145-module__LbrhEW__variable ..."
+-                           cz-shortcut-listen="true"
+                          >
+                          ...
+                  ...
+
+[01:31:19.625] Browser WARN    Image with src "/logoA.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:31:19.625] Browser WARN    Image with src "/foodmenu.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:31:20.325] Browser LOG     User loaded from Firestore: wIyC2n8IgTgtJMfqfnDiy4x73Un1
+[01:31:21.728] Browser WARN    Image with src "/logoA.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:31:22.310] Browser WARN    Image with src "/logoA.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:31:22.310] Browser WARN    Image with src "/foodmenu.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:31:22.690] Browser LOG     User loaded from Firestore: wIyC2n8IgTgtJMfqfnDiy4x73Un1
+[01:31:23.630] Browser WARN    Image with src "/logoA.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:31:23.631] Browser WARN    Image with src "/foodmenu.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:31:24.065] Browser LOG     User loaded from Firestore: wIyC2n8IgTgtJMfqfnDiy4x73Un1
+[01:31:34.082] Browser WARN    Image with src "/logoA.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:31:34.082] Browser WARN    Image with src "/foodmenu.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:31:35.111] Browser LOG     User loaded from Firestore: wIyC2n8IgTgtJMfqfnDiy4x73Un1
+[01:32:39.683] Browser WARN    Image with src "/logoA.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:32:39.683] Browser WARN    Image with src "/foodmenu.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:32:40.203] Browser LOG     User loaded from Firestore: wIyC2n8IgTgtJMfqfnDiy4x73Un1
+[02:37:18.630] Browser WARN    Image with src "/cafebasimta.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:45:05.112] Browser WARN    Image with src "/logoA.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:45:07.416] Browser LOG     User loaded from Firestore: wIyC2n8IgTgtJMfqfnDiy4x73Un1
+[02:47:06.485] Browser WARN    Image with src "/logoA.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:47:06.485] Browser WARN    Image with src "/cafebasimta.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:47:07.473] Browser LOG     User loaded from Firestore: wIyC2n8IgTgtJMfqfnDiy4x73Un1
+[02:47:17.360] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="he"
+                          dir="rtl"
+                          data-theme="light"
+-                         __gchrome_remoteframetoken="69ee6a98426e949233d5f1fa6de05dd5"
+                        >
+                  ...
+
+[02:47:17.360] Browser WARN    Image with src "/logoA.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:47:18.488] Browser LOG     User loaded from Firestore: wIyC2n8IgTgtJMfqfnDiy4x73Un1
+[02:50:46.596] Browser ERROR   ./src/components/ui/FoodTrack.js:2:17
+Ecmascript file had an error
+  1 | import Image from "next/image";
+> 2 | import React, { useState } from "react";
+    |                 ^^^^^^^^
+  3 |
+  4 | function FoodTrack() {
+  5 |   const [open, setOpen] = useState(false);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./src/components/ui/FoodTrack.js
+    ./src/app/page.js
+[02:50:46.605] Browser ERROR   ./src/components/ui/FoodTrack.js:2:17
+Ecmascript file had an error
+  1 | import Image from "next/image";
+> 2 | import React, { useState } from "react";
+    |                 ^^^^^^^^
+  3 |
+  4 | function FoodTrack() {
+  5 |   const [open, setOpen] = useState(false);
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./src/components/ui/FoodTrack.js
+    ./src/app/page.js
+[02:50:57.837] Server  LOG     ✓ Compiled in 84ms
+[02:51:23.470] Server  LOG     ✓ Compiled in 102ms
+[02:51:30.171] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="he" dir="rtl" data-theme="light">
+                          <body
+                            className="rubik_78c3363e-module__1LcUFG__variable heebo_fd7e145-module__LbrhEW__variable ..."
+-                           cz-shortcut-listen="true"
+                          >
+                          ...
+                  ...
+
+[02:51:30.171] Browser WARN    Image with src "/logoA.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:51:31.159] Browser LOG     User loaded from Firestore: wIyC2n8IgTgtJMfqfnDiy4x73Un1
+[02:52:02.412] Server  LOG     ✓ Compiled in 62ms
+[02:52:24.402] Server  LOG     ✓ Compiled in 93ms
+[02:52:36.685] Server  LOG     ✓ Compiled in 46ms
+[02:52:49.444] Server  LOG     ✓ Compiled in 29ms
+[02:52:49.523] Browser WARN    Image with src "/cafebasimta.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:52:53.779] Server  LOG     ✓ Compiled in 32ms
+[02:53:01.556] Server  LOG     ✓ Compiled in 27ms
+[02:53:05.834] Server  LOG     ✓ Compiled in 35ms
+[02:53:10.419] Server  LOG     ✓ Compiled in 34ms
+[02:53:13.893] Server  LOG     ✓ Compiled in 45ms
+[02:53:27.655] Server  LOG     ✓ Compiled in 38ms
+[02:53:40.714] Server  LOG     ✓ Compiled in 31ms
+[02:54:00.866] Server  LOG     ✓ Compiled in 33ms
+[02:54:02.805] Server  LOG     ✓ Compiled in 27ms
+[02:54:06.495] Server  LOG     ✓ Compiled in 29ms
+[02:54:25.502] Server  LOG     ✓ Compiled in 31ms
+[02:55:11.312] Server  LOG     ✓ Compiled in 28ms
+[02:55:26.491] Server  LOG     ✓ Compiled in 31ms
+[02:55:30.651] Server  LOG     ✓ Compiled in 31ms
+[02:55:35.432] Server  LOG     ✓ Compiled in 34ms
+[02:55:39.021] Server  LOG     ✓ Compiled in 32ms
+[02:55:50.884] Server  LOG     ✓ Compiled in 31ms
+[02:55:57.347] Server  LOG     ✓ Compiled in 26ms
+[02:56:09.488] Server  LOG     ✓ Compiled in 25ms
+[02:56:12.667] Server  LOG     ✓ Compiled in 31ms
+[02:56:41.683] Server  LOG     ✓ Compiled in 31ms
+[02:56:49.089] Server  LOG     ✓ Compiled in 95ms
+[02:57:14.913] Server  LOG     ✓ Compiled in 110ms
+[02:57:23.615] Server  LOG     ✓ Compiled in 49ms
+[02:57:52.313] Server  LOG     ✓ Compiled in 29ms
+[02:57:55.967] Server  LOG     ✓ Compiled in 28ms
+[03:10:04.583] Server  LOG     ✓ Compiled in 39ms
+[03:10:33.772] Server  LOG     ✓ Compiled in 42ms
+[03:10:35.771] Server  LOG     ✓ Compiled in 50ms
+[03:10:45.687] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="he" dir="rtl" data-theme="light">
+                          <body
+                            className="rubik_78c3363e-module__1LcUFG__variable heebo_fd7e145-module__LbrhEW__variable ..."
+-                           cz-shortcut-listen="true"
+                          >
+                          ...
+                  ...
+
+[03:10:45.687] Browser WARN    Image with src "/logoA.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:10:45.687] Browser WARN    Image with src "/cafebasimta.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:10:46.943] Browser LOG     User loaded from Firestore: wIyC2n8IgTgtJMfqfnDiy4x73Un1
+[03:11:35.246] Server  LOG     ✓ Compiled in 41ms
+[03:11:42.500] Server  LOG     ✓ Compiled in 28ms
+[03:11:47.286] Server  LOG     ✓ Compiled in 38ms
+[03:11:58.951] Server  LOG     ✓ Compiled in 44ms
+[03:12:26.936] Browser WARN    Image with src "/logoA.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:12:29.202] Browser LOG     User loaded from Firestore: wIyC2n8IgTgtJMfqfnDiy4x73Un1
+[03:12:54.664] Server  LOG     ✓ Compiled in 55ms
+[03:13:25.747] Server  LOG     ✓ Compiled in 31ms
+[03:13:28.015] Server  LOG     ✓ Compiled in 34ms
+[03:16:10.021] Server  LOG     ✓ Compiled in 34ms
+[03:16:31.850] Server  LOG     ✓ Compiled in 27ms
+[03:16:34.328] Server  LOG     ✓ Compiled in 31ms
+[03:16:41.482] Server  LOG     ✓ Compiled in 27ms
+[03:16:53.194] Server  LOG     ✓ Compiled in 26ms
+[03:16:57.882] Server  LOG     ✓ Compiled in 29ms
+[03:17:03.960] Server  LOG     ✓ Compiled in 26ms
+[03:17:11.965] Server  LOG     ✓ Compiled in 34ms
+[03:17:15.083] Server  LOG     ✓ Compiled in 101ms
+[03:17:18.405] Server  LOG     ✓ Compiled in 91ms
+[03:17:23.864] Server  LOG     ✓ Compiled in 67ms
+[03:17:27.604] Server  LOG     ✓ Compiled in 83ms
+[03:17:32.013] Server  LOG     ✓ Compiled in 67ms
+[03:17:33.957] Server  LOG     ✓ Compiled in 75ms
+[03:17:36.257] Server  LOG     ✓ Compiled in 22ms
+[03:21:35.820] Server  LOG     ✓ Compiled in 51ms
+[03:22:00.905] Browser WARN    Image with src "/logoA.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:22:02.340] Browser LOG     User loaded from Firestore: wIyC2n8IgTgtJMfqfnDiy4x73Un1
+[03:23:00.808] Server  LOG     ✓ Compiled in 41ms
+[03:23:32.141] Server  LOG     ✓ Compiled in 33ms
+[03:23:40.762] Server  LOG     ✓ Compiled in 106ms
+[03:23:45.837] Server  LOG     ✓ Compiled in 29ms
+[03:23:51.917] Server  LOG     ✓ Compiled in 34ms
+[03:24:17.007] Server  LOG     ✓ Compiled in 29ms
+[03:24:23.147] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="he" dir="rtl" data-theme="light">
+                          <body
+                            className="rubik_78c3363e-module__1LcUFG__variable heebo_fd7e145-module__LbrhEW__variable ..."
+-                           cz-shortcut-listen="true"
+                          >
+                          ...
+                  ...
+
+[03:24:23.147] Browser WARN    Image with src "/logoA.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:24:24.069] Browser LOG     User loaded from Firestore: wIyC2n8IgTgtJMfqfnDiy4x73Un1
+[03:24:28.333] Browser WARN    Image with src "/logoA.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:24:30.521] Browser LOG     User loaded from Firestore: wIyC2n8IgTgtJMfqfnDiy4x73Un1
+[03:25:05.365] Server  LOG     ✓ Compiled in 31ms
+[03:25:08.643] Server  LOG     ✓ Compiled in 26ms
+[03:26:06.850] Server  LOG     ✓ Compiled in 44ms
+[03:27:09.263] Server  LOG     ✓ Compiled in 25ms
+[03:27:33.951] Server  LOG     ✓ Compiled in 130ms
+[03:27:40.177] Server  LOG     ✓ Compiled in 73ms
+[03:28:00.688] Server  LOG     ✓ Compiled in 28ms
+[03:28:03.451] Server  LOG     ✓ Compiled in 31ms
+[03:28:05.815] Server  LOG     ✓ Compiled in 30ms
+[03:28:14.630] Server  LOG     ✓ Compiled in 34ms
+[03:28:19.757] Server  LOG     ✓ Compiled in 48ms
+[03:28:24.585] Server  LOG     ✓ Compiled in 47ms
+[03:28:39.898] Server  LOG     ✓ Compiled in 33ms
+[03:28:47.105] Server  LOG     ✓ Compiled in 25ms
+[03:28:54.761] Server  LOG     ✓ Compiled in 40ms
+[03:30:48.237] Server  LOG     ✓ Compiled in 70ms
+[03:31:48.136] Server  LOG     ✓ Compiled in 35ms
+[03:34:01.475] Server  LOG     ✓ Compiled in 48ms
+[03:34:37.538] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/contact" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+            <SegmentViewNode type="page" pagePath="contact/pa...">
+              <SegmentTrieNode>
+              <ClientPageRoot Component={function Contact} serverProvidedParams={{...}}>
+                <Contact params={Promise} searchParams={Promise}>
+                  <div className={"min-h-sc..."}>
+                    <div className="">
+                      <Header>
+                      <div className="mt-10 grid...">
+                        <div className="order-1 lg...">
+                          <div className="bg-white/7...">
+                            ...
+                              <ContactMap>
+                                <section className="w-full max...">
+                                  <h2>
+                                  <div className="relative w...">
+                                    <iframe
+                                      className="absolute top-0 left-0 w-full h-full"
+                                      src={"https://maps.google.com/maps?width=600&height=400&hl=en&q=סמטת%20אהרון%20..."}
+                                      loading="lazy"
+-                                     __gchrome_childframeremotetoken="8d338cd12e5a84983b29bb919a91b7a1"
+                                    >
+                            <div>
+                            <div className="px-8 pb-8 ...">
+                              <h2>
+                              <p>
+                              <form
+                                onSubmit={function handleSubmit}
+                                className="flex flex-col space-y-4"
+-                               __gchrome_uniqueid="1"
+                              >
+                                <div className="flex flex-...">
+                                  <label>
+                                  <input
+                                    type="text"
+                                    name="name"
+                                    value=""
+                                    onChange={function handleChange}
+                                    placeholder="איך לפנות אליך?"
+                                    className="block w-full rounded-2xl border border-slate-200 bg-slate-50/70 px-4 py..."
+                                    required={true}
+-                                   __gchrome_uniqueid="2"
+                                  >
+                                <div className="flex flex-...">
+                                  <label>
+                                  <input
+                                    type="email"
+                                    name="email"
+                                    value=""
+                                    onChange={function handleChange}
+                                    placeholder="example@mail.com"
+                                    className="block w-full rounded-2xl border border-slate-200 bg-slate-50/70 px-4 py..."
+                                    required={true}
+-                                   __gchrome_uniqueid="3"
+                                  >
+                                <div className="flex flex-...">
+                                  <label>
+                                  <textarea
+                                    name="message"
+                                    value=""
+                                    onChange={function handleChange}
+                                    rows={4}
+                                    placeholder="ספר לנו קצת מה אתה מחפש – צמח למרפסת, לפינת עבודה, או מתנה מיוחדת..."
+                                    className="block w-full rounded-2xl border border-slate-200 bg-slate-50/70 px-4 py..."
+                                    required={true}
+-                                   __gchrome_uniqueid="4"
+                                  >
+                                ...
+            ...
+          ...
+
+[03:34:37.538] Browser WARN    Image with src "/logoA.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:34:39.132] Browser LOG     User loaded from Firestore: wIyC2n8IgTgtJMfqfnDiy4x73Un1
